@@ -1,0 +1,65 @@
+* {
+    margin: 0
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(211, 99, 211), rgb(94, 182, 218));
+    background-color: #ecb913;
+  }
+  
+  .container h1 {
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  .registartion-form {
+    border-radius: 90%;
+    border: 3px solid #609;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(6, 184, 86), rgb(75, 165, 177));
+    
+    
+    padding: 20px;
+  }
+  
+  .registartion-form input,
+  .registartion-form select,
+  .registartion-form textarea {
+    border-radius: 25px;
+    border: 2px solid #609;
+    
+    padding: 5px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .registartion-form input:focus,
+  .registartion-form textarea:focus {
+    box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+  }
+  
+  .registartion-form .submit {
+    
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    background-color: #ccf3e7;
+    border-radius: 5px;
+  }
+  
+  .registartion-form .submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+  }
